@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Main
+{% endblock %}
+
+{% block main %}
+    <h1>Testing main</h1>
+    <button id="gotomain2">Testing</button>
+{% endblock %}
+
+<script>
+        function sendRequest() {
+            $.get("/");
+        }
+    </script>
